@@ -1,0 +1,126 @@
+.mainpage-col,
+nbox {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+.mainpage-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #2A52BE;
+}
+
+.mainpage-col {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: .4em;
+}
+
+.mainpage-box {
+    flex-grow: 1;
+    flex-basis: 17em;
+    padding: .4em;
+    margin-top: .4em;
+    border: 1px solid #2a52be;
+    border-radius: .5em;
+    box-shadow: 0 .1em .4em rgba(87, 87, 87, .3);
+}
+
+.mainpage-box p,
+.mainpage-box ul {
+    margin-top: .6em;
+    margin-bottom: .6em;
+}
+
+.mainpage-title-sub {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    background: #2a52be;
+    color: #fff;
+    border-radius: .3em;
+}
+
+.contributionscores-wrapper,
+.contributionscores {
+    display: table;
+    margin: 0;
+    width: 100%;
+    border: 0px;
+}
+
+.contributionscores-title,
+.mw-usertoollinks {
+    display: none;
+}
+
+.contributionscores .header th {
+    text-align: center !important;
+    font-weight: 700;
+    padding-top: 0.45em !important;
+}
+
+.contributionscores th,
+.contributionscores td {
+    padding: .2em .35em !important;
+    border: 0px;
+}
+
+.contributionscores-wrapper,
+.contributionscores,
+.contributionscores th {
+    background-color: transparent;
+}
+
+.contributionscores td {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.contributionscores td:first-child {
+    font-weight: 600;
+}
+
+.contributionscores td:not(:last-child) {
+    text-align: center !important;
+}
+
+.sistersite {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto 1em auto 1em;
+}
+
+.sistersite-block {
+    flex: 1 1 10em;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.buttonlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.button {
+    flex: 1 1 10em;
+    margin: 0.5em;
+    background: #eaeff2;
+    border-radius: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    transition: all .35s;
+}
+
+.button a {
+    display: block;
+    padding: 0.4em;
+    height: 100%;
+}
+
+.button:hover {
+    box-shadow: 0 0 8px #bbb;
+}
